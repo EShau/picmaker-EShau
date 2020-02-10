@@ -22,7 +22,7 @@ def draw():
             for x in range(-250, 250, 1):
                 if in_heart(x, y):
                     if y == 0:
-                        fileWriter.write("128 0 128")
+                        fileWriter.write("128 0 128 ")
                     elif y > 0:
                         fileWriter.write("255 0 0 ")
                     else:
